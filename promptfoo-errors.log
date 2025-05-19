@@ -166,3 +166,64 @@ Stack Trace: Error: SyntaxError: invalid syntax
     File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747628054552-d0678a2dbadee.py", line 4
       return ./scorers/score1.py:score
              ^
+2025-05-19T07:21:17.983Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+  File "D:\graduate\prompt_alignment\tests\test2.py", line 8, in generate_tests
+    { "type": "icontains", "value": "������" | "�D����",  "weight": 3 },
+TypeError: unsupported operand type(s) for |: 'str' and 'str'
+2025-05-19T07:21:17.989Z [ERROR]: Error running Python script: TypeError: unsupported operand type(s) for |: 'str' and 'str'
+Stack Trace: Error: TypeError: unsupported operand type(s) for |: 'str' and 'str'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "D:\graduate\prompt_alignment\tests\test2.py", line 8, in generate_tests
+      { "type": "icontains", "value": "������" | "�D����",  "weight": 3 },
+2025-05-19T07:23:14.074Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\tests\\test3.py'
+2025-05-19T07:23:14.082Z [ERROR]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\tests\\test3.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\tests\\test3.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-19T07:27:23.774Z [ERROR]: Could not identify provider: [1mgpt-4o-mini[22m.
+
+[37mPlease check your configuration and ensure the provider is correctly specified.[39m
+[37m[39m
+[37mFor more information on supported providers, visit:[39m [36mhttps://promptfoo.dev/docs/providers/[39m
+2025-05-19T07:27:23.840Z [ERROR]: Could not identify provider: [1mgpt-4o-mini[22m.
+
+[37mPlease check your configuration and ensure the provider is correctly specified.[39m
+[37m[39m
+[37mFor more information on supported providers, visit:[39m [36mhttps://promptfoo.dev/docs/providers/[39m
+2025-05-19T07:27:23.871Z [ERROR]: Could not identify provider: [1mgpt-4o-mini[22m.
+
+[37mPlease check your configuration and ensure the provider is correctly specified.[39m
+[37m[39m
+[37mFor more information on supported providers, visit:[39m [36mhttps://promptfoo.dev/docs/providers/[39m

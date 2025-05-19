@@ -16,8 +16,8 @@ description: "本地 Ollama 模型中文推文測試"
 #       weight: 3
 #   threshold: 0.3 
 
-# prompts:
-#   - file://./prompts/123.txt
+prompts:
+  - file://./prompts/test.json
 
 providers:
   - file://./providers/llama.yaml
