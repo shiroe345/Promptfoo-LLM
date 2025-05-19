@@ -1,0 +1,791 @@
+{
+  "evalId": "eval-oUS-2025-05-19T06:31:43",
+  "results": {
+    "version": 3,
+    "timestamp": "2025-05-19T06:31:43.486Z",
+    "prompts": [
+      {
+        "raw": "{{prompt}}",
+        "label": "{{prompt}}",
+        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "provider": "Llama2",
+        "metrics": {
+          "score": 2,
+          "testPassCount": 2,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 5,
+          "assertFailCount": 0,
+          "totalLatencyMs": 71,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 2,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 314,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 314
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0
+        }
+      },
+      {
+        "raw": "{{prompt}}",
+        "label": "{{prompt}}",
+        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "provider": "Breeze 7B Instruct",
+        "metrics": {
+          "score": 2,
+          "testPassCount": 2,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 5,
+          "assertFailCount": 0,
+          "totalLatencyMs": 68,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 2,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 289,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 289
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0
+        }
+      },
+      {
+        "raw": "{{prompt}}",
+        "label": "{{prompt}}",
+        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "provider": "GPT-4o Mini",
+        "metrics": {
+          "score": 2,
+          "testPassCount": 2,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 5,
+          "assertFailCount": 0,
+          "totalLatencyMs": 43,
+          "tokenUsage": {
+            "total": 223,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 223,
+            "numRequests": 2,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 303,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 303
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.0000969
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0.0000486,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "香蕉",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py:score",
+                "weight": 2,
+                "config": {
+                  "keyword": "香蕉"
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "b051f86a-0760-4d09-be49-79d36dd31bf3",
+        "latencyMs": 12,
+        "namedScores": {},
+        "prompt": {
+          "raw": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-4o-mini",
+          "label": "GPT-4o Mini"
+        },
+        "response": {
+          "output": "嗨，我是AI助手，喜歡幫助人們解決問題。我的興趣廣泛，包括科學、文學和美食。說到美食，我特別喜歡香蕉，因為它既美味又營養，適合隨時享用！希望能和你分享更多知識！",
+          "tokenUsage": {
+            "cached": 111,
+            "total": 111
+          },
+          "cached": true,
+          "cost": 0.0000486
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "香蕉",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "香蕉"
+              }
+            }
+          ],
+          "description": "幽默香蕉 Tweet",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 314,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 314
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "芭樂",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "芭樂"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "是否跟芭樂有關",
+                "weight": 1
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "自我介紹中提到了『芭樂』，並說喜歡唱芭樂，因此與芭樂有關。",
+              "tokensUsed": {
+                "total": 314,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 314,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "ea5658f1-9deb-4b4c-a88e-cfb21ef1e906",
+        "latencyMs": 26,
+        "namedScores": {},
+        "prompt": {
+          "raw": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 0,
+        "provider": {
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
+        },
+        "response": {
+          "output": "\n Sure, here's a brief self-introduction in Traditional Chinese that includes the word \"芭樂\" and falls within the given range of 15 to 60 characters:\n\n我叫小明，中国人，喜欢唱芭樂。我在學校參加音樂組，常 performs in front of classmates and teachers. 我的聲音優美，響亮於一切人。（19 characters）"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "芭樂",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "芭樂"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "是否跟芭樂有關",
+              "weight": 1
+            }
+          ],
+          "description": "幽默芭樂 Tweet",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "香蕉",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py:score",
+                "weight": 2,
+                "config": {
+                  "keyword": "香蕉"
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "e31aeaff-898c-4caf-bb86-2308e4a296d5",
+        "latencyMs": 45,
+        "namedScores": {},
+        "prompt": {
+          "raw": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 0,
+        "provider": {
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
+        },
+        "response": {
+          "output": "\n我是一個喜歡品味世界的中国人，愛看到新的事物，喜歡試試不同的食物和飲料。在熱帶地區生活，我常常感到受到香蕉的氣息影響，它們的美味和獨特氣味使得我們心情高漲。在晚上，我常會坐在庭院上，享受香蕉的夜晚氣象，從中感受到生命的美好。"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "香蕉",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "香蕉"
+              }
+            }
+          ],
+          "description": "幽默香蕉 Tweet",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "香蕉",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py:score",
+                "weight": 2,
+                "config": {
+                  "keyword": "香蕉"
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "ddef2b29-de23-4071-b4a3-68955f7dbc11",
+        "latencyMs": 57,
+        "namedScores": {},
+        "prompt": {
+          "raw": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 1,
+        "provider": {
+          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
+          "label": "Breeze 7B Instruct"
+        },
+        "response": {
+          "output": "你好，我是一位來自台灣的 AI 聊天機器人，主要任務是提供實用且正確的資訊給使用者。我以「香蕉」為核心，希望能成為一名可靠、有趣又富知識的香蕉達人。"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "香蕉",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "香蕉"
+              }
+            }
+          ],
+          "description": "幽默香蕉 Tweet",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 289,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 289
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "芭樂",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "芭樂"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "是否跟芭樂有關",
+                "weight": 1
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "內容中提到特別喜歡吃芭樂，與芭樂有關。",
+              "tokensUsed": {
+                "total": 289,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 289,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "cce53178-4aa8-4ae3-8867-a032f151ce6e",
+        "latencyMs": 11,
+        "namedScores": {},
+        "prompt": {
+          "raw": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 1,
+        "provider": {
+          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
+          "label": "Breeze 7B Instruct"
+        },
+        "response": {
+          "output": "你好，我是一位來自台灣的 AI 聊天機器人，擅長以繁體中文溝通，特別喜歡吃芭樂。我可以提供多元化的資訊、解答問題或提供建議，歡迎隨時來找我聊聊！"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "芭樂",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "芭樂"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "是否跟芭樂有關",
+              "weight": 1
+            }
+          ],
+          "description": "幽默芭樂 Tweet",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000048299999999999995,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 303,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 303
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "芭樂",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "芭樂"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "是否跟芭樂有關",
+                "weight": 1
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "內容中明確提到『我特別喜歡芭樂的清新口感』，有涉及芭樂。",
+              "tokensUsed": {
+                "total": 303,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 303,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "0785a8bc-afb9-4ea4-a2c7-ed7b73321070",
+        "latencyMs": 31,
+        "namedScores": {},
+        "prompt": {
+          "raw": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-4o-mini",
+          "label": "GPT-4o Mini"
+        },
+        "response": {
+          "output": "大家好，我是一個熱愛學習的AI助手，喜歡與人分享知識和資訊。我的特長是解答問題，無論是科技、文化還是生活小技巧。順便提一下，我特別喜歡芭樂的清新口感，讓人感到愉悅！",
+          "tokenUsage": {
+            "cached": 112,
+            "total": 112
+          },
+          "cached": true,
+          "cost": 0.000048299999999999995
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "芭樂",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "芭樂"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "是否跟芭樂有關",
+              "weight": 1
+            }
+          ],
+          "description": "幽默芭樂 Tweet",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      }
+    ],
+    "stats": {
+      "successes": 6,
+      "failures": 0,
+      "errors": 0,
+      "tokenUsage": {
+        "cached": 223,
+        "completion": 0,
+        "prompt": 0,
+        "total": 223,
+        "numRequests": 6,
+        "completionDetails": {
+          "reasoning": 0,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0
+        },
+        "assertions": {
+          "total": 906,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 906
+        }
+      }
+    }
+  },
+  "config": {
+    "tags": {},
+    "description": "本地 Ollama 模型中文推文測試",
+    "prompts": [
+      "{{prompt}}"
+    ],
+    "providers": [
+      "file://./providers/llama.yaml",
+      "file://./providers/breeze.yaml",
+      "file://./providers/gpt-4o-mini.yaml"
+    ],
+    "tests": [
+      "file://./tests/test1.py:generate_tests",
+      "file://./tests/test2.py:generate_tests"
+    ],
+    "scenarios": [],
+    "env": {},
+    "sharing": true,
+    "defaultTest": {
+      "vars": {},
+      "assert": [],
+      "options": {},
+      "metadata": {}
+    },
+    "outputPath": [
+      "baseline.json"
+    ],
+    "extensions": [],
+    "metadata": {}
+  },
+  "shareableUrl": null
+}

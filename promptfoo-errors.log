@@ -1,0 +1,168 @@
+2025-05-16T09:19:36.848Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:36.848Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:36.849Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:37.220Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:37.220Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:37.222Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:38.149Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:38.150Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-16T09:19:38.150Z [ERROR]: API call error: TypeError: Cannot read properties of null (reading 'data')
+2025-05-19T04:12:13.303Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+2025-05-19T04:12:13.306Z [ERROR]: File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747627933128-9263284a9be07.py", line 4
+    return ./scorers/score1.py:score
+           ^
+SyntaxError: invalid syntax
+2025-05-19T04:12:13.315Z [ERROR]: Error running Python script: SyntaxError: invalid syntax
+Stack Trace: Error: SyntaxError: invalid syntax
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+    File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747627933128-9263284a9be07.py", line 4
+      return ./scorers/score1.py:score
+             ^
+2025-05-19T04:12:13.316Z [ERROR]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747627933129-f734bde20ae1f.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747627933129-f734bde20ae1f.json'
+2025-05-19T04:12:13.316Z [ERROR]: Error executing Python code: Error: Error running Python script: SyntaxError: invalid syntax
+Stack Trace: Error: SyntaxError: invalid syntax
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+    File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747627933128-9263284a9be07.py", line 4
+      return ./scorers/score1.py:score
+             ^
+2025-05-19T04:13:18.883Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747627998718-f6f54b5ca15e8.py", line 4
+    return ./scorers/score1.py:score
+           ^
+SyntaxError: invalid syntax
+2025-05-19T04:13:18.892Z [ERROR]: Error running Python script: SyntaxError: invalid syntax
+Stack Trace: Error: SyntaxError: invalid syntax
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+    File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747627998718-f6f54b5ca15e8.py", line 4
+      return ./scorers/score1.py:score
+             ^
+2025-05-19T04:13:18.893Z [ERROR]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747627998719-b8dcaed4c970b.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747627998719-b8dcaed4c970b.json'
+2025-05-19T04:13:18.893Z [ERROR]: Error executing Python code: Error: Error running Python script: SyntaxError: invalid syntax
+Stack Trace: Error: SyntaxError: invalid syntax
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+    File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747627998718-f6f54b5ca15e8.py", line 4
+      return ./scorers/score1.py:score
+             ^
+2025-05-19T04:14:14.684Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747628054552-d0678a2dbadee.py", line 4
+    return ./scorers/score1.py:score
+           ^
+SyntaxError: invalid syntax
+2025-05-19T04:14:14.695Z [ERROR]: Error running Python script: SyntaxError: invalid syntax
+Stack Trace: Error: SyntaxError: invalid syntax
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747628054552-d0678a2dbadee.py", line 4
+      return ./scorers/score1.py:score
+             ^
+2025-05-19T04:14:14.696Z [ERROR]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747628054552-d71bf0327a0de.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747628054552-d71bf0327a0de.json'
+2025-05-19T04:14:14.696Z [ERROR]: Error executing Python code: Error: Error running Python script: SyntaxError: invalid syntax
+Stack Trace: Error: SyntaxError: invalid syntax
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+    File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+    File "C:\Users\USER\AppData\Local\Temp\temp-python-code-1747628054552-d0678a2dbadee.py", line 4
+      return ./scorers/score1.py:score
+             ^

@@ -1,0 +1,29 @@
+description: "本地 Ollama 模型中文推文測試"
+
+# defaultTest: # 所有 test 都會套用到的規則
+#   assert:
+#     - type: llm-rubric # env OPENAI_API_KEY, default: openai:gpt-4o
+#       value: "內容要幽默、精煉、不得道歉"
+#       weight: 3
+#     - type: javascript
+#       value: 1 / (output.length + 1)
+#       weight: 1
+#     - type: regex
+#       value: "^[^,，]{15,60}$"
+#       weight: 2
+#     - type: icontains
+#       value: "{{topic}}"
+#       weight: 3
+#   threshold: 0.3 
+
+# prompts:
+#   - file://./prompts/123.txt
+
+providers:
+  - file://./providers/llama.yaml
+  - file://./providers/breeze.yaml
+  - file://./providers/gpt-4o-mini.yaml
+
+tests: 
+  - file://./tests/test1.py:generate_tests
+  - file://./tests/test2.py:generate_tests
