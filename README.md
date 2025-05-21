@@ -105,23 +105,23 @@ Web 介面功能：
 ### 常見問題排解
 
 1. **找不到模型**
-   確認模型名稱是否正確，本地模型是否已下載
+   -> 確認模型名稱是否正確，本地模型是否已下載
    ```bash
    # 檢查本地模型
    ollama list
    ```
 
 2. **評估過程錯誤**
-   查看 promptfoo-errors.log 檔案找出錯誤原因
+   -> 查看 promptfoo-errors.log 檔案找出錯誤原因
    ```bash
    tail -n 50 promptfoo-errors.log
    ```
 
 3. **未獲得評估結果**
-   檢查 providers 目錄中的模型配置是否正確
+   -> 檢查 providers 目錄中的模型配置是否正確
 
 4. **API 金鑰問題**
-   確認環境變數是否正確設定
+   -> 確認環境變數是否正確設定
    ```bash
    echo $OPENAI_API_KEY
    ```
