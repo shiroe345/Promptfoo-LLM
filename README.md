@@ -17,7 +17,12 @@
 ├── providers/              # 模型提供者配置目錄
 │   ├── llama.yaml          # Llama 模型配置
 │   ├── breeze.yaml         # Breeze 繁體中文模型配置
-│   └── gpt-4o-mini.yaml    # OpenAI GPT-4o Mini 模型配置
+│   ├── Llama-3.2-3B-F1.yaml # Llama 3.2 3B F1 推理增強模型配置
+│   ├── gpt-4o-mini.yaml    # OpenAI GPT-4o Mini 模型配置
+│   └── full_pipeline.yaml  # 腳本 as provider腳本 as provider
+│
+├── scripts/                # 腳本目錄
+│   └── full_pipeline.py    # 端到端處理管道的腳本
 │
 ├── tests/                  # 測試案例目錄
 │   ├── test1.py            # 數位證書相關問題測試
@@ -31,29 +36,114 @@
 
 ## 使用方法
 
-### 安裝 promptfoo
+### 環境準備
 
-```bash
-npm i -g promptfoo
-```
+1. **Node.js 環境**
+   確保已安裝 Node.js (建議 v14 或更高版本)
+   ```bash
+   node --version
+   ```
 
-### 執行測試
+2. **安裝 promptfoo**
+   ```bash
+   npm install -g promptfoo
+   ```
 
+3. **設定 Ollama (如使用本地模型)**
+   確保 Ollama 服務已啟動並載入所需模型
+   ```bash
+   ollama list
+   # 如需載入模型，例如
+   ollama pull llama2
+   ollama pull ycchen/breeze-7b-instruct-v1_0
+   ```
+
+4. **設定 OpenAI API (如使用 OpenAI 模型)**
+   設定環境變數
+   ```bash
+   # Windows
+   set OPENAI_API_KEY=your_api_key
+
+   # Linux/Mac
+   export OPENAI_API_KEY=your_api_key
+   ```
+
+### 執行評估流程
+
+#### 基本評估
+執行所有測試與模型的評估：
 ```bash
 promptfoo eval -c promptfooconfig.yaml
 ```
 
-如果要保存結果，用 `--output results.json`
+#### 保存評估結果
+將評估結果保存為 JSON 檔案：
+```bash
+promptfoo eval -c promptfooconfig.yaml --output results.json
+```
 
-如果要 debug，用 `--verbose`
 
-如果要建立 baseline，用 `promptfoo eval -c promptfooconfig.yaml -o baseline.json -d "2025-05-19 baseline"`
+#### 除錯
+顯示詳細的評估過程與錯誤訊息：
+```bash
+promptfoo eval -c promptfooconfig.yaml --verbose
+```
 
-如果要比較 baseline，用 `--baseline baseline.json`
+### 視覺化與分析結果
 
-### 視覺化結果
+啟動 Web 介面查看最新評估結果：
+```bash
+promptfoo view
+```
+
+Web 介面功能：
+- 查看每個模型在不同測試案例的表現
+- 比較不同模型的回應內容
+- 分析評估分數與錯誤原因
+- 匯出評估報告
+
+### 常見問題排解
+
+1. **找不到模型**
+   確認模型名稱是否正確，本地模型是否已下載
+   ```bash
+   # 檢查本地模型
+   ollama list
+   ```
+
+2. **評估過程錯誤**
+   查看 promptfoo-errors.log 檔案找出錯誤原因
+   ```bash
+   tail -n 50 promptfoo-errors.log
+   ```
+
+3. **未獲得評估結果**
+   檢查 providers 目錄中的模型配置是否正確
+
+4. **API 金鑰問題**
+   確認環境變數是否正確設定
+   ```bash
+   echo $OPENAI_API_KEY
+   ```
+
+### 完整流程範例
+
+以下是一個完整的流程範例，從安裝到執行及檢視結果：
 
 ```bash
+# 安裝 promptfoo
+npm install -g promptfoo
+
+# 設定環境變數 (如使用 OpenAI)
+export OPENAI_API_KEY=your_api_key
+
+# 確認 Ollama 服務 (如使用本地模型)
+ollama list
+
+# 執行並儲存結果
+promptfoo eval -c promptfooconfig.yaml -o result.json
+
+# 啟動視覺化介面比較結果
 promptfoo view
 ```
 
