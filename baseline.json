@@ -1,121 +1,139 @@
 {
-  "evalId": "eval-oUS-2025-05-19T06:31:43",
+  "evalId": "eval-WRm-2025-05-21T07:16:20",
   "results": {
     "version": 3,
-    "timestamp": "2025-05-19T06:31:43.486Z",
+    "timestamp": "2025-05-21T07:16:20.076Z",
     "prompts": [
       {
-        "raw": "{{prompt}}",
-        "label": "{{prompt}}",
-        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "id": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
         "provider": "Llama2",
         "metrics": {
-          "score": 2,
-          "testPassCount": 2,
-          "testFailCount": 0,
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 2,
           "testErrorCount": 0,
-          "assertPassCount": 5,
-          "assertFailCount": 0,
-          "totalLatencyMs": 71,
+          "assertPassCount": 2,
+          "assertFailCount": 6,
+          "totalLatencyMs": 57,
           "tokenUsage": {
             "total": 0,
             "prompt": 0,
             "completion": 0,
             "cached": 0,
-            "numRequests": 2,
+            "numRequests": 3,
             "completionDetails": {
               "reasoning": 0,
               "acceptedPrediction": 0,
               "rejectedPrediction": 0
             },
             "assertions": {
-              "total": 314,
+              "total": 309,
               "prompt": 0,
               "completion": 0,
-              "cached": 314
+              "cached": 309
             }
           },
-          "namedScores": {},
-          "namedScoresCount": {},
+          "namedScores": {
+            "correct_tool": 0,
+            "correct_args": 0
+          },
+          "namedScoresCount": {
+            "correct_tool": 1,
+            "correct_args": 1
+          },
           "cost": 0
         }
       },
       {
-        "raw": "{{prompt}}",
-        "label": "{{prompt}}",
-        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "id": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
         "provider": "Breeze 7B Instruct",
         "metrics": {
           "score": 2,
           "testPassCount": 2,
-          "testFailCount": 0,
+          "testFailCount": 1,
           "testErrorCount": 0,
           "assertPassCount": 5,
-          "assertFailCount": 0,
-          "totalLatencyMs": 68,
+          "assertFailCount": 3,
+          "totalLatencyMs": 78,
           "tokenUsage": {
             "total": 0,
             "prompt": 0,
             "completion": 0,
             "cached": 0,
-            "numRequests": 2,
+            "numRequests": 3,
             "completionDetails": {
               "reasoning": 0,
               "acceptedPrediction": 0,
               "rejectedPrediction": 0
             },
             "assertions": {
-              "total": 289,
+              "total": 239,
               "prompt": 0,
               "completion": 0,
-              "cached": 289
+              "cached": 239
             }
           },
-          "namedScores": {},
-          "namedScoresCount": {},
+          "namedScores": {
+            "correct_tool": 0,
+            "correct_args": 0
+          },
+          "namedScoresCount": {
+            "correct_tool": 1,
+            "correct_args": 1
+          },
           "cost": 0
         }
       },
       {
-        "raw": "{{prompt}}",
-        "label": "{{prompt}}",
-        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "id": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
         "provider": "GPT-4o Mini",
         "metrics": {
-          "score": 2,
-          "testPassCount": 2,
+          "score": 3,
+          "testPassCount": 3,
           "testFailCount": 0,
           "testErrorCount": 0,
-          "assertPassCount": 5,
+          "assertPassCount": 8,
           "assertFailCount": 0,
-          "totalLatencyMs": 43,
+          "totalLatencyMs": 93,
           "tokenUsage": {
-            "total": 223,
+            "total": 399,
             "prompt": 0,
             "completion": 0,
-            "cached": 223,
-            "numRequests": 2,
+            "cached": 399,
+            "numRequests": 3,
             "completionDetails": {
               "reasoning": 0,
               "acceptedPrediction": 0,
               "rejectedPrediction": 0
             },
             "assertions": {
-              "total": 303,
+              "total": 230,
               "prompt": 0,
               "completion": 0,
-              "cached": 303
+              "cached": 230
             }
           },
-          "namedScores": {},
-          "namedScoresCount": {},
-          "cost": 0.0000969
+          "namedScores": {
+            "correct_tool": 1,
+            "correct_args": 1
+          },
+          "namedScoresCount": {
+            "correct_tool": 1,
+            "correct_args": 1
+          },
+          "cost": 0.00008189999999999998
         }
       }
     ],
     "results": [
       {
-        "cost": 0.0000486,
+        "cost": 0,
         "gradingResult": {
           "pass": true,
           "score": 1,
@@ -134,7 +152,7 @@
               "reason": "Assertion passed",
               "assertion": {
                 "type": "icontains",
-                "value": "香蕉",
+                "value": "數位證書",
                 "weight": 3
               }
             },
@@ -147,444 +165,760 @@
                 "value": "file://./scorers/score1.py:score",
                 "weight": 2,
                 "config": {
-                  "keyword": "香蕉"
+                  "keyword": "發證"
                 }
               }
             }
           ],
           "assertion": null
         },
-        "id": "b051f86a-0760-4d09-be49-79d36dd31bf3",
+        "id": "cd4e9451-df58-41e7-9f0e-864df97afae4",
+        "latencyMs": 9,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 0,
+        "provider": {
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
+        },
+        "response": {
+          "output": "歡迎您到我們數位證書服務的客服中！作為一名客服人員，我會尽力答凡您的問題。\n\n在這裡面，您可以提交問題或需要幫助，我們都能夠回應。如果您有任何問題或需要幫助，請隨時提交。\n\n來自您的第一個問題：作為用者，您想知道數位證書的發證流程是如何進行的。我們可以提供您有關這個問題的解答。\n\n為了確保您能夠適當地獲得資訊，我們會逐步介紹數位證書的發證流程。首先，您需要完成以下步驟：\n\n1. 請提供您的姓名和Email地址，以便我們能夠確保您的資料是安全的。\n2. 接著，您需要完成一個基本的評估，以確保您理解數位證書的功能和限制。\n3. 一旦您通過評估，我們將給您一個發證預認 code，您可以使用這個 code來申請數位證書。\n4. 當您申請成功後，您將獲得一個數位證書，可以用於進行在線交易和其他各種服務。\n\n我們希望這篇介紹能夠幫助您了解數位證書的發證流程，如果您有任何其他問題或需要幫助，請隨時提交。"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "數位證書",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "發證"
+              }
+            }
+          ],
+          "description": "數位證書發證流程",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "error": "Aggregate score 0.00 < 0.7 threshold",
+        "gradingResult": {
+          "pass": false,
+          "score": 0,
+          "reason": "Aggregate score 0.00 < 0.7 threshold",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 309,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 309
+          },
+          "componentResults": [
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function returned false\noutput.includes('不相關') || output.includes('非')",
+              "assertion": {
+                "type": "javascript",
+                "value": "output.includes('不相關') || output.includes('非')",
+                "weight": 3
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Python code returned false\nfile://./scorers/score1.py",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "無法回答"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "不相關的內容，無法回應",
+                "weight": 5,
+                "provider": "openai:gpt-4o-mini"
+              },
+              "pass": false,
+              "score": 0,
+              "reason": "The output focuses on providing customer service information and asks for specific questions related to the service, which indicates relevance.",
+              "tokensUsed": {
+                "total": 309,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 309,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "12f5f530-c3b4-4894-8e67-512ef9015ad2",
+        "latencyMs": 20,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 0,
+        "provider": {
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
+        },
+        "response": {
+          "output": "Hello! As a customer service representative for a digital signature service, I'm here to help you with any questions or concerns you may have. Please feel free to ask me anything related to our service, including introductions and general information. However, I must inform you that I cannot provide answers to unrelated questions or content that is not relevant to our service. Is there something specific you would like to know or discuss?"
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "芭樂是甚麼樣的水果"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "無法回答"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
+            }
+          ],
+          "description": "不相關內容測試",
+          "threshold": 0.7,
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "user_prompt": "芭樂是甚麼樣的水果"
+        },
+        "metadata": {},
+        "failureReason": 1
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "數位證書",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py:score",
+                "weight": 2,
+                "config": {
+                  "keyword": "發證"
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "b8e86bec-c092-4843-a53a-6f9c08fadda3",
+        "latencyMs": 37,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 1,
+        "provider": {
+          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
+          "label": "Breeze 7B Instruct"
+        },
+        "response": {
+          "output": "數位證書（Digital Certificate）是一種電子文件，用於驗證和保護網路上的身份識別。以下是我們台灣地區常見的數位證書發證流程：\n\n1. 申請人註冊：申請人需要在數位證書機構的網站上註冊一個帳戶，並提供個人或公司等相關資訊。\n2. 填寫資料：申請人需填寫完整的基本資料，包括姓名、出生日期、地址、電子郵件等，以及選擇所需的證書類型（如身份驗證、SSL憑證等）和有效期。\n3. 支付費用：根據不同的證書種類和效期，申請人需要支付相應的費用。\n4. 身分認證：在註冊後，申請人需進行身分認證，通常有以下幾種方式：\n   a. 電子郵件認證：數位證書機構會發送一封驗證信到申請人的註冊電郵地址，點擊信中的連結即可完成認證。\n   b. 電話認證：數位證書機構會撥打電話給申請人，並提供一組驗證碼供確認。\n   c. 實體證件郵寄：申請人需將本人的身份證明文件（如身分證、護照等）郵寄至數位證書機構進行人工審核。\n5. 下載安裝：當完成上述步驟後，申請人可以在數位證書機構網站上下載所需的憑證，並按照指示安裝到瀏覽器或伺服器中。\n6. 憑證啟用：憑證啟用通常需要在憑證有效期內進行一次，以確保憑證能正常使用。\n7. 憑證更新：憑證到期前，申請人需重新購買憑證並完成更新程序，以便繼續使用憑證。\n\n請注意，上述流程可能因不同數位證書機構而有所差異。"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "數位證書",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "發證"
+              }
+            }
+          ],
+          "description": "數位證書發證流程",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0.00002985,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "數位證書",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py:score",
+                "weight": 2,
+                "config": {
+                  "keyword": "發證"
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "82386caf-1d6f-4e1b-963f-81b950b0b284",
+        "latencyMs": 48,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-4o-mini",
+          "label": "GPT-4o Mini"
+        },
+        "response": {
+          "output": "數位證書的發證流程通常包括以下幾個主要步驟：",
+          "tokenUsage": {
+            "cached": 139,
+            "total": 139
+          },
+          "cached": true,
+          "cost": 0.00002985
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "數位證書",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "發證"
+              }
+            }
+          ],
+          "description": "數位證書發證流程",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "error": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+        "gradingResult": {
+          "pass": false,
+          "score": 0,
+          "reason": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+          "namedScores": {
+            "correct_tool": 0,
+            "correct_args": 0
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "OpenAI did not return a valid-looking tools response: \"Hello! I'm here to help you with any questions you may have related to your digital certificate. As a customer service representative for a digital certificate provider, I'll do my best to assist you. Please feel free to ask me any questions you have, and I'll do my best to provide helpful responses.\\n\\nFor the first question, I'm happy to introduce our digital certificate services and explain how they can benefit you. Our digital certificates are secure and reliable, and they can help protect your online identity and transactions. We offer a range of certificates for different purposes, including website security, code signing, and email authentication.\\n\\nFor the second question, I apologize but I'm unable to provide you with your certificate validation date as I don't have access to your personal information or certificate details. However, I can advise you on how to check your certificate validation status or renew your certificate if necessary. Please let me know if there's anything else I can help you with.\"",
+              "assertion": {
+                "type": "is-valid-openai-tools-call"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function threw error: Cannot read properties of undefined (reading 'name')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'name')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:27)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\noutput[0].function.name === \"get_certificate_date\"",
+              "assertion": {
+                "type": "javascript",
+                "value": "output[0].function.name === \"get_certificate_date\"",
+                "metric": "correct_tool"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "assertion": {
+                "type": "javascript",
+                "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+                "metric": "correct_args"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "2bff4e9a-4380-404a-b216-07f0db85a5d1",
+        "latencyMs": 28,
+        "namedScores": {
+          "correct_tool": 0,
+          "correct_args": 0
+        },
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"幫我查詢我的數位證書發證日期; id 為 1234567890\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 0,
+        "provider": {
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
+        },
+        "response": {
+          "output": "Hello! I'm here to help you with any questions you may have related to your digital certificate. As a customer service representative for a digital certificate provider, I'll do my best to assist you. Please feel free to ask me any questions you have, and I'll do my best to provide helpful responses.\n\nFor the first question, I'm happy to introduce our digital certificate services and explain how they can benefit you. Our digital certificates are secure and reliable, and they can help protect your online identity and transactions. We offer a range of certificates for different purposes, including website security, code signing, and email authentication.\n\nFor the second question, I apologize but I'm unable to provide you with your certificate validation date as I don't have access to your personal information or certificate details. However, I can advise you on how to check your certificate validation status or renew your certificate if necessary. Please let me know if there's anything else I can help you with."
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+          },
+          "assert": [
+            {
+              "type": "is-valid-openai-tools-call"
+            },
+            {
+              "type": "javascript",
+              "value": "output[0].function.name === \"get_certificate_date\"",
+              "metric": "correct_tool"
+            },
+            {
+              "type": "javascript",
+              "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "metric": "correct_args"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+        },
+        "metadata": {},
+        "failureReason": 1
+      },
+      {
+        "cost": 0,
+        "error": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+        "gradingResult": {
+          "pass": false,
+          "score": 0,
+          "reason": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+          "namedScores": {
+            "correct_tool": 0,
+            "correct_args": 0
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "OpenAI did not return a valid-looking tools response: \"此訊息非相關內容，無法回答\"",
+              "assertion": {
+                "type": "is-valid-openai-tools-call"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function threw error: Cannot read properties of undefined (reading 'name')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'name')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:27)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\noutput[0].function.name === \"get_certificate_date\"",
+              "assertion": {
+                "type": "javascript",
+                "value": "output[0].function.name === \"get_certificate_date\"",
+                "metric": "correct_tool"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "assertion": {
+                "type": "javascript",
+                "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+                "metric": "correct_args"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "4862d475-b337-4735-8b04-361b1367c1a3",
+        "latencyMs": 29,
+        "namedScores": {
+          "correct_tool": 0,
+          "correct_args": 0
+        },
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"幫我查詢我的數位證書發證日期; id 為 1234567890\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 1,
+        "provider": {
+          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
+          "label": "Breeze 7B Instruct"
+        },
+        "response": {
+          "output": "此訊息非相關內容，無法回答"
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+          },
+          "assert": [
+            {
+              "type": "is-valid-openai-tools-call"
+            },
+            {
+              "type": "javascript",
+              "value": "output[0].function.name === \"get_certificate_date\"",
+              "metric": "correct_tool"
+            },
+            {
+              "type": "javascript",
+              "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "metric": "correct_args"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+        },
+        "metadata": {},
+        "failureReason": 1
+      },
+      {
+        "cost": 0.000029099999999999996,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {
+            "correct_tool": 1,
+            "correct_args": 1
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "is-valid-openai-tools-call"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "javascript",
+                "value": "output[0].function.name === \"get_certificate_date\"",
+                "metric": "correct_tool"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "javascript",
+                "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+                "metric": "correct_args"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "4c5e6024-be61-4b8a-85d5-5001a7c40248",
+        "latencyMs": 10,
+        "namedScores": {
+          "correct_tool": 1,
+          "correct_args": 1
+        },
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"幫我查詢我的數位證書發證日期; id 為 1234567890\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-4o-mini",
+          "label": "GPT-4o Mini"
+        },
+        "response": {
+          "output": [
+            {
+              "id": "call_p0GYe7G4TT2kQBgsBWjErYbA",
+              "type": "function",
+              "function": {
+                "name": "get_certificate_date",
+                "arguments": "{\"id\":\"1234567890\"}"
+              }
+            }
+          ],
+          "tokenUsage": {
+            "cached": 140,
+            "total": 140
+          },
+          "cached": true,
+          "cost": 0.000029099999999999996
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+          },
+          "assert": [
+            {
+              "type": "is-valid-openai-tools-call"
+            },
+            {
+              "type": "javascript",
+              "value": "output[0].function.name === \"get_certificate_date\"",
+              "metric": "correct_tool"
+            },
+            {
+              "type": "javascript",
+              "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "metric": "correct_args"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Aggregate score 1.00 ≥ 0.7 threshold",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 239,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 239
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "javascript",
+                "value": "output.includes('不相關') || output.includes('非')",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "無法回答"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "不相關的內容，無法回應",
+                "weight": 5,
+                "provider": "openai:gpt-4o-mini"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The output states that the question is not related to digital certificate services and cannot be answered.",
+              "tokensUsed": {
+                "total": 239,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 239,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "eb39272e-7f34-4eca-8051-733ac44261e4",
         "latencyMs": 12,
         "namedScores": {},
         "prompt": {
-          "raw": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。",
-          "label": "{{prompt}}"
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
-        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
-        "promptIdx": 2,
-        "provider": {
-          "id": "openai:gpt-4o-mini",
-          "label": "GPT-4o Mini"
-        },
-        "response": {
-          "output": "嗨，我是AI助手，喜歡幫助人們解決問題。我的興趣廣泛，包括科學、文學和美食。說到美食，我特別喜歡香蕉，因為它既美味又營養，適合隨時享用！希望能和你分享更多知識！",
-          "tokenUsage": {
-            "cached": 111,
-            "total": 111
-          },
-          "cached": true,
-          "cost": 0.0000486
-        },
-        "score": 1,
-        "success": true,
-        "testCase": {
-          "vars": {
-            "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
-          },
-          "assert": [
-            {
-              "type": "icontains",
-              "value": "香蕉",
-              "weight": 3
-            },
-            {
-              "type": "python",
-              "value": "file://./scorers/score1.py:score",
-              "weight": 2,
-              "config": {
-                "keyword": "香蕉"
-              }
-            }
-          ],
-          "description": "幽默香蕉 Tweet",
-          "options": {},
-          "metadata": {}
-        },
-        "testIdx": 0,
-        "vars": {
-          "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
-        },
-        "metadata": {},
-        "failureReason": 0
-      },
-      {
-        "cost": 0,
-        "gradingResult": {
-          "pass": true,
-          "score": 1,
-          "reason": "All assertions passed",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 314,
-            "prompt": 0,
-            "completion": 0,
-            "cached": 314
-          },
-          "componentResults": [
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "icontains",
-                "value": "芭樂",
-                "weight": 3
-              }
-            },
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "python",
-                "value": "file://./scorers/score1.py",
-                "weight": 2,
-                "config": {
-                  "keyword": "芭樂"
-                }
-              }
-            },
-            {
-              "assertion": {
-                "type": "llm-rubric",
-                "value": "是否跟芭樂有關",
-                "weight": 1
-              },
-              "pass": true,
-              "score": 1,
-              "reason": "自我介紹中提到了『芭樂』，並說喜歡唱芭樂，因此與芭樂有關。",
-              "tokensUsed": {
-                "total": 314,
-                "prompt": 0,
-                "completion": 0,
-                "cached": 314,
-                "completionDetails": {
-                  "reasoning": 0,
-                  "acceptedPrediction": 0,
-                  "rejectedPrediction": 0
-                }
-              }
-            }
-          ],
-          "assertion": null
-        },
-        "id": "ea5658f1-9deb-4b4c-a88e-cfb21ef1e906",
-        "latencyMs": 26,
-        "namedScores": {},
-        "prompt": {
-          "raw": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。",
-          "label": "{{prompt}}"
-        },
-        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
-        "promptIdx": 0,
-        "provider": {
-          "id": "ollama:llama2:latest",
-          "label": "Llama2"
-        },
-        "response": {
-          "output": "\n Sure, here's a brief self-introduction in Traditional Chinese that includes the word \"芭樂\" and falls within the given range of 15 to 60 characters:\n\n我叫小明，中国人，喜欢唱芭樂。我在學校參加音樂組，常 performs in front of classmates and teachers. 我的聲音優美，響亮於一切人。（19 characters）"
-        },
-        "score": 1,
-        "success": true,
-        "testCase": {
-          "vars": {
-            "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
-          },
-          "assert": [
-            {
-              "type": "icontains",
-              "value": "芭樂",
-              "weight": 3
-            },
-            {
-              "type": "python",
-              "value": "file://./scorers/score1.py",
-              "weight": 2,
-              "config": {
-                "keyword": "芭樂"
-              }
-            },
-            {
-              "type": "llm-rubric",
-              "value": "是否跟芭樂有關",
-              "weight": 1
-            }
-          ],
-          "description": "幽默芭樂 Tweet",
-          "options": {},
-          "metadata": {}
-        },
-        "testIdx": 1,
-        "vars": {
-          "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
-        },
-        "metadata": {},
-        "failureReason": 0
-      },
-      {
-        "cost": 0,
-        "gradingResult": {
-          "pass": true,
-          "score": 1,
-          "reason": "All assertions passed",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 0,
-            "prompt": 0,
-            "completion": 0,
-            "cached": 0
-          },
-          "componentResults": [
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "icontains",
-                "value": "香蕉",
-                "weight": 3
-              }
-            },
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "python",
-                "value": "file://./scorers/score1.py:score",
-                "weight": 2,
-                "config": {
-                  "keyword": "香蕉"
-                }
-              }
-            }
-          ],
-          "assertion": null
-        },
-        "id": "e31aeaff-898c-4caf-bb86-2308e4a296d5",
-        "latencyMs": 45,
-        "namedScores": {},
-        "prompt": {
-          "raw": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。",
-          "label": "{{prompt}}"
-        },
-        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
-        "promptIdx": 0,
-        "provider": {
-          "id": "ollama:llama2:latest",
-          "label": "Llama2"
-        },
-        "response": {
-          "output": "\n我是一個喜歡品味世界的中国人，愛看到新的事物，喜歡試試不同的食物和飲料。在熱帶地區生活，我常常感到受到香蕉的氣息影響，它們的美味和獨特氣味使得我們心情高漲。在晚上，我常會坐在庭院上，享受香蕉的夜晚氣象，從中感受到生命的美好。"
-        },
-        "score": 1,
-        "success": true,
-        "testCase": {
-          "vars": {
-            "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
-          },
-          "assert": [
-            {
-              "type": "icontains",
-              "value": "香蕉",
-              "weight": 3
-            },
-            {
-              "type": "python",
-              "value": "file://./scorers/score1.py:score",
-              "weight": 2,
-              "config": {
-                "keyword": "香蕉"
-              }
-            }
-          ],
-          "description": "幽默香蕉 Tweet",
-          "options": {},
-          "metadata": {}
-        },
-        "testIdx": 0,
-        "vars": {
-          "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
-        },
-        "metadata": {},
-        "failureReason": 0
-      },
-      {
-        "cost": 0,
-        "gradingResult": {
-          "pass": true,
-          "score": 1,
-          "reason": "All assertions passed",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 0,
-            "prompt": 0,
-            "completion": 0,
-            "cached": 0
-          },
-          "componentResults": [
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "icontains",
-                "value": "香蕉",
-                "weight": 3
-              }
-            },
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "python",
-                "value": "file://./scorers/score1.py:score",
-                "weight": 2,
-                "config": {
-                  "keyword": "香蕉"
-                }
-              }
-            }
-          ],
-          "assertion": null
-        },
-        "id": "ddef2b29-de23-4071-b4a3-68955f7dbc11",
-        "latencyMs": 57,
-        "namedScores": {},
-        "prompt": {
-          "raw": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。",
-          "label": "{{prompt}}"
-        },
-        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
         "promptIdx": 1,
         "provider": {
           "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
           "label": "Breeze 7B Instruct"
         },
         "response": {
-          "output": "你好，我是一位來自台灣的 AI 聊天機器人，主要任務是提供實用且正確的資訊給使用者。我以「香蕉」為核心，希望能成為一名可靠、有趣又富知識的香蕉達人。"
+          "output": "此問題非數位證書服務相關內容，無法回答。"
         },
         "score": 1,
         "success": true,
         "testCase": {
           "vars": {
-            "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
+            "user_prompt": "芭樂是甚麼樣的水果"
           },
           "assert": [
             {
-              "type": "icontains",
-              "value": "香蕉",
-              "weight": 3
-            },
-            {
-              "type": "python",
-              "value": "file://./scorers/score1.py:score",
-              "weight": 2,
-              "config": {
-                "keyword": "香蕉"
-              }
-            }
-          ],
-          "description": "幽默香蕉 Tweet",
-          "options": {},
-          "metadata": {}
-        },
-        "testIdx": 0,
-        "vars": {
-          "prompt": "用繁體中文寫一則介紹你自己，需要包含「香蕉」這個詞，並且字數在 15 到 60 字之間。"
-        },
-        "metadata": {},
-        "failureReason": 0
-      },
-      {
-        "cost": 0,
-        "gradingResult": {
-          "pass": true,
-          "score": 1,
-          "reason": "All assertions passed",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 289,
-            "prompt": 0,
-            "completion": 0,
-            "cached": 289
-          },
-          "componentResults": [
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "icontains",
-                "value": "芭樂",
-                "weight": 3
-              }
-            },
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "python",
-                "value": "file://./scorers/score1.py",
-                "weight": 2,
-                "config": {
-                  "keyword": "芭樂"
-                }
-              }
-            },
-            {
-              "assertion": {
-                "type": "llm-rubric",
-                "value": "是否跟芭樂有關",
-                "weight": 1
-              },
-              "pass": true,
-              "score": 1,
-              "reason": "內容中提到特別喜歡吃芭樂，與芭樂有關。",
-              "tokensUsed": {
-                "total": 289,
-                "prompt": 0,
-                "completion": 0,
-                "cached": 289,
-                "completionDetails": {
-                  "reasoning": 0,
-                  "acceptedPrediction": 0,
-                  "rejectedPrediction": 0
-                }
-              }
-            }
-          ],
-          "assertion": null
-        },
-        "id": "cce53178-4aa8-4ae3-8867-a032f151ce6e",
-        "latencyMs": 11,
-        "namedScores": {},
-        "prompt": {
-          "raw": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。",
-          "label": "{{prompt}}"
-        },
-        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
-        "promptIdx": 1,
-        "provider": {
-          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
-          "label": "Breeze 7B Instruct"
-        },
-        "response": {
-          "output": "你好，我是一位來自台灣的 AI 聊天機器人，擅長以繁體中文溝通，特別喜歡吃芭樂。我可以提供多元化的資訊、解答問題或提供建議，歡迎隨時來找我聊聊！"
-        },
-        "score": 1,
-        "success": true,
-        "testCase": {
-          "vars": {
-            "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
-          },
-          "assert": [
-            {
-              "type": "icontains",
-              "value": "芭樂",
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
               "weight": 3
             },
             {
@@ -592,38 +926,40 @@
               "value": "file://./scorers/score1.py",
               "weight": 2,
               "config": {
-                "keyword": "芭樂"
+                "keyword": "無法回答"
               }
             },
             {
               "type": "llm-rubric",
-              "value": "是否跟芭樂有關",
-              "weight": 1
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
             }
           ],
-          "description": "幽默芭樂 Tweet",
+          "description": "不相關內容測試",
+          "threshold": 0.7,
           "options": {},
           "metadata": {}
         },
         "testIdx": 1,
         "vars": {
-          "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+          "user_prompt": "芭樂是甚麼樣的水果"
         },
         "metadata": {},
         "failureReason": 0
       },
       {
-        "cost": 0.000048299999999999995,
+        "cost": 0.000022949999999999995,
         "gradingResult": {
           "pass": true,
           "score": 1,
-          "reason": "All assertions passed",
+          "reason": "Aggregate score 1.00 ≥ 0.7 threshold",
           "namedScores": {},
           "tokensUsed": {
-            "total": 303,
+            "total": 230,
             "prompt": 0,
             "completion": 0,
-            "cached": 303
+            "cached": 230
           },
           "componentResults": [
             {
@@ -631,8 +967,8 @@
               "score": 1,
               "reason": "Assertion passed",
               "assertion": {
-                "type": "icontains",
-                "value": "芭樂",
+                "type": "javascript",
+                "value": "output.includes('不相關') || output.includes('非')",
                 "weight": 3
               }
             },
@@ -645,24 +981,25 @@
                 "value": "file://./scorers/score1.py",
                 "weight": 2,
                 "config": {
-                  "keyword": "芭樂"
+                  "keyword": "無法回答"
                 }
               }
             },
             {
               "assertion": {
                 "type": "llm-rubric",
-                "value": "是否跟芭樂有關",
-                "weight": 1
+                "value": "不相關的內容，無法回應",
+                "weight": 5,
+                "provider": "openai:gpt-4o-mini"
               },
               "pass": true,
               "score": 1,
-              "reason": "內容中明確提到『我特別喜歡芭樂的清新口感』，有涉及芭樂。",
+              "reason": "內容明確表示無法回答，符合不相關的內容",
               "tokensUsed": {
-                "total": 303,
+                "total": 230,
                 "prompt": 0,
                 "completion": 0,
-                "cached": 303,
+                "cached": 230,
                 "completionDetails": {
                   "reasoning": 0,
                   "acceptedPrediction": 0,
@@ -673,38 +1010,38 @@
           ],
           "assertion": null
         },
-        "id": "0785a8bc-afb9-4ea4-a2c7-ed7b73321070",
-        "latencyMs": 31,
+        "id": "1f1a1b58-6f87-41fd-8984-1982909e46dc",
+        "latencyMs": 35,
         "namedScores": {},
         "prompt": {
-          "raw": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。",
-          "label": "{{prompt}}"
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
-        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
         "promptIdx": 2,
         "provider": {
           "id": "openai:gpt-4o-mini",
           "label": "GPT-4o Mini"
         },
         "response": {
-          "output": "大家好，我是一個熱愛學習的AI助手，喜歡與人分享知識和資訊。我的特長是解答問題，無論是科技、文化還是生活小技巧。順便提一下，我特別喜歡芭樂的清新口感，讓人感到愉悅！",
+          "output": "此為不相關內容，無法回答。",
           "tokenUsage": {
-            "cached": 112,
-            "total": 112
+            "cached": 120,
+            "total": 120
           },
           "cached": true,
-          "cost": 0.000048299999999999995
+          "cost": 0.000022949999999999995
         },
         "score": 1,
         "success": true,
         "testCase": {
           "vars": {
-            "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+            "user_prompt": "芭樂是甚麼樣的水果"
           },
           "assert": [
             {
-              "type": "icontains",
-              "value": "芭樂",
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
               "weight": 3
             },
             {
@@ -712,22 +1049,24 @@
               "value": "file://./scorers/score1.py",
               "weight": 2,
               "config": {
-                "keyword": "芭樂"
+                "keyword": "無法回答"
               }
             },
             {
               "type": "llm-rubric",
-              "value": "是否跟芭樂有關",
-              "weight": 1
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
             }
           ],
-          "description": "幽默芭樂 Tweet",
+          "description": "不相關內容測試",
+          "threshold": 0.7,
           "options": {},
           "metadata": {}
         },
         "testIdx": 1,
         "vars": {
-          "prompt": "用繁體中文寫一則介紹你自己，需要包含「芭樂」這個詞，並且字數在 15 到 60 字之間。"
+          "user_prompt": "芭樂是甚麼樣的水果"
         },
         "metadata": {},
         "failureReason": 0
@@ -735,33 +1074,32 @@
     ],
     "stats": {
       "successes": 6,
-      "failures": 0,
+      "failures": 3,
       "errors": 0,
       "tokenUsage": {
-        "cached": 223,
+        "cached": 399,
         "completion": 0,
         "prompt": 0,
-        "total": 223,
-        "numRequests": 6,
+        "total": 399,
+        "numRequests": 9,
         "completionDetails": {
           "reasoning": 0,
           "acceptedPrediction": 0,
           "rejectedPrediction": 0
         },
         "assertions": {
-          "total": 906,
+          "total": 778,
           "prompt": 0,
           "completion": 0,
-          "cached": 906
+          "cached": 778
         }
       }
     }
   },
   "config": {
-    "tags": {},
     "description": "本地 Ollama 模型中文推文測試",
     "prompts": [
-      "{{prompt}}"
+      "file://./prompts/test.json"
     ],
     "providers": [
       "file://./providers/llama.yaml",
@@ -772,20 +1110,11 @@
       "file://./tests/test1.py:generate_tests",
       "file://./tests/test2.py:generate_tests"
     ],
-    "scenarios": [],
-    "env": {},
     "sharing": true,
-    "defaultTest": {
-      "vars": {},
-      "assert": [],
-      "options": {},
-      "metadata": {}
-    },
     "outputPath": [
       "baseline.json"
     ],
-    "extensions": [],
-    "metadata": {}
+    "extensions": []
   },
   "shareableUrl": null
 }

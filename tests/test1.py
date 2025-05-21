@@ -4,7 +4,7 @@ def generate_tests():
             "vars": {
                 # promptfoo 若找不到 `prompts:` 會自動用 {{prompt}} 作「直通模板」
                 # "prompt": "{{test-prompt}}",
-                "user_prompt": "用繁體中文介紹數位證書的發證流程。"
+                "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
             },
             "assert": [
                 { "type": "icontains", "value": "數位證書",  "weight": 3 },

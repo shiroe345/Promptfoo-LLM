@@ -22,7 +22,9 @@ prompts:
 providers:
   - file://./providers/llama.yaml
   - file://./providers/breeze.yaml
+  - file://./providers/Llama-3.2-3B-F1.yaml
   - file://./providers/gpt-4o-mini.yaml
+  
 
 tests: 
   - file://./tests/test1.py:generate_tests
