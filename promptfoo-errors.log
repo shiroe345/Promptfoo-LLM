@@ -227,3 +227,370 @@ Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\
 [37mPlease check your configuration and ensure the provider is correctly specified.[39m
 [37m[39m
 [37mFor more information on supported providers, visit:[39m [36mhttps://promptfoo.dev/docs/providers/[39m
+2025-05-21T07:40:42.126Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+2025-05-21T07:40:42.128Z [ERROR] [pythonUtils.js:107]: return method_to_call(*args)
+TypeError: run() takes 0 positional arguments but 3 were given
+2025-05-21T07:40:42.132Z [ERROR] [pythonUtils.js:142]: Error running Python script: TypeError: run() takes 0 positional arguments but 3 were given
+Stack Trace: Error: TypeError: run() takes 0 positional arguments but 3 were given
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+2025-05-21T07:40:42.132Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813241943-19cad42ce2c8d.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813241943-19cad42ce2c8d.json'
+2025-05-21T07:40:42.369Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+TypeError: run() takes 0 positional arguments but 3 were given
+2025-05-21T07:40:42.381Z [ERROR] [pythonUtils.js:142]: Error running Python script: TypeError: run() takes 0 positional arguments but 3 were given
+Stack Trace: Error: TypeError: run() takes 0 positional arguments but 3 were given
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+2025-05-21T07:40:42.383Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813242178-a7c7dc64eec62.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813242178-a7c7dc64eec62.json'
+2025-05-21T07:40:42.436Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+TypeError: run() takes 0 positional arguments but 3 were given
+2025-05-21T07:40:42.449Z [ERROR] [pythonUtils.js:142]: Error running Python script: TypeError: run() takes 0 positional arguments but 3 were given
+Stack Trace: Error: TypeError: run() takes 0 positional arguments but 3 were given
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+2025-05-21T07:40:42.450Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813242276-27f8d2be1f5d7.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813242276-27f8d2be1f5d7.json'
+2025-05-21T07:40:49.742Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+TypeError: run() takes 0 positional arguments but 3 were given
+2025-05-21T07:40:49.751Z [ERROR] [pythonUtils.js:142]: Error running Python script: TypeError: run() takes 0 positional arguments but 3 were given
+Stack Trace: Error: TypeError: run() takes 0 positional arguments but 3 were given
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+2025-05-21T07:40:49.752Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813249539-1846e76da8a67.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813249539-1846e76da8a67.json'
+2025-05-21T07:40:49.976Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+TypeError: run() takes 0 positional arguments but 3 were given
+2025-05-21T07:40:49.987Z [ERROR] [pythonUtils.js:142]: Error running Python script: TypeError: run() takes 0 positional arguments but 3 were given
+Stack Trace: Error: TypeError: run() takes 0 positional arguments but 3 were given
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+2025-05-21T07:40:49.988Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813249819-478e495123af3.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813249819-478e495123af3.json'
+2025-05-21T07:40:50.036Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+TypeError: run() takes 0 positional arguments but 3 were given
+2025-05-21T07:40:50.046Z [ERROR] [pythonUtils.js:142]: Error running Python script: TypeError: run() takes 0 positional arguments but 3 were given
+Stack Trace: Error: TypeError: run() takes 0 positional arguments but 3 were given
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+2025-05-21T07:40:50.047Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813249895-d97e05b77543f.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813249895-d97e05b77543f.json'
+2025-05-21T07:45:02.781Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:02.784Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:02.792Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+2025-05-21T07:45:02.793Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:02.794Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502574-5611c1cb2718a.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502574-5611c1cb2718a.json'
+2025-05-21T07:45:02.818Z [ERROR] [pythonUtils.js:107]: File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:02.819Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:02.820Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502599-f4b7469c2650e.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502599-f4b7469c2650e.json'
+2025-05-21T07:45:02.828Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at Socket.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:164:17)
+    at Socket.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:02.828Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502625-44024deeace0e.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502625-44024deeace0e.json'
+2025-05-21T07:45:02.837Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:02.837Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at Socket.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:164:17)
+    at Socket.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:02.838Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502647-78435160ebb35.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502647-78435160ebb35.json'
+2025-05-21T07:45:03.016Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:03.029Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:03.030Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502850-1d5fc507a9567.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502850-1d5fc507a9567.json'
+2025-05-21T07:45:03.039Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:03.071Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:03.072Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:03.073Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502869-bf16c3f77bff.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502869-bf16c3f77bff.json'
+2025-05-21T07:45:03.093Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at Socket.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:164:17)
+    at Socket.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:03.094Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502888-3de30005d9493.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813502888-3de30005d9493.json'
+2025-05-21T07:45:03.194Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:03.208Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:03.209Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503003-ab55ed30b517a.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503003-ab55ed30b517a.json'
+2025-05-21T07:45:03.227Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:03.239Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:03.239Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503043-9c7274838561a.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503043-9c7274838561a.json'
+2025-05-21T07:45:03.433Z [ERROR] [pythonUtils.js:107]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+    spec.loader.exec_module(script_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+2025-05-21T07:45:03.444Z [ERROR] [pythonUtils.js:142]: Error running Python script: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\\graduate\\prompt_alignment\\scorers\\scoring.py'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 18, in call_method
+      spec.loader.exec_module(script_module)
+    File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+    File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+    File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+2025-05-21T07:45:03.445Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503274-f30a062cf1f3c.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503274-f30a062cf1f3c.json'

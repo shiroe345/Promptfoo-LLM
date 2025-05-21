@@ -1,4 +1,4 @@
-description: "本地 Ollama 模型中文推文測試"
+description: "模型繁體中文回應測試"
 
 # defaultTest: # 所有 test 都會套用到的規則
 #   assert:
@@ -24,6 +24,7 @@ providers:
   - file://./providers/breeze.yaml
   - file://./providers/Llama-3.2-3B-F1.yaml
   - file://./providers/gpt-4o-mini.yaml
+  - file://./providers/full_pipeline.yaml
   
 
 tests: 

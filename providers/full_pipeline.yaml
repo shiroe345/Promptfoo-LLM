@@ -1,0 +1,2 @@
+id: file://scripts/full_pipeline.py:run
+label: "End-to-end RAG+Tool Pipeline"

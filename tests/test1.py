@@ -10,7 +10,7 @@ def generate_tests():
                 { "type": "icontains", "value": "數位證書",  "weight": 3 },
                 { 
                     "type": "python", 
-                    "value": "file://./scorers/score1.py:score", 
+                    "value": "file://./scorers/scoring.py:score", 
                     "weight": 2,
                     "config":  # 用這個 input args, 進去函示後用 context.get("config", {}).get({ARG_NAME}, {DEFAULT_ARG})
                         {"keyword": "發證"}

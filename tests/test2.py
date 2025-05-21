@@ -11,7 +11,7 @@ def generate_tests():
                     "weight": 3 },
                 { 
                     "type": "python", 
-                    "value": "file://./scorers/score1.py", # 沒有 :{FUNCTION}，會自動用 get_assert
+                    "value": "file://./scorers/scoring.py", # 沒有 :{FUNCTION}，會自動用 get_assert
                     "weight": 2,
                     "config": {
                         "keyword": "無法回答"

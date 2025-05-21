@@ -1,8 +1,8 @@
 {
-  "evalId": "eval-WRm-2025-05-21T07:16:20",
+  "evalId": "eval-pTj-2025-05-21T07:39:57",
   "results": {
     "version": 3,
-    "timestamp": "2025-05-21T07:16:20.076Z",
+    "timestamp": "2025-05-21T07:39:57.575Z",
     "prompts": [
       {
         "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
@@ -16,7 +16,7 @@
           "testErrorCount": 0,
           "assertPassCount": 2,
           "assertFailCount": 6,
-          "totalLatencyMs": 57,
+          "totalLatencyMs": 59,
           "tokenUsage": {
             "total": 0,
             "prompt": 0,
@@ -58,7 +58,7 @@
           "testErrorCount": 0,
           "assertPassCount": 5,
           "assertFailCount": 3,
-          "totalLatencyMs": 78,
+          "totalLatencyMs": 70,
           "tokenUsage": {
             "total": 0,
             "prompt": 0,
@@ -92,6 +92,48 @@
         "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
         "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
         "id": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "provider": "Llama-3.2-3B-F1-Resoning-Instruct",
+        "metrics": {
+          "score": 2,
+          "testPassCount": 2,
+          "testFailCount": 1,
+          "testErrorCount": 0,
+          "assertPassCount": 5,
+          "assertFailCount": 3,
+          "totalLatencyMs": 77,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 3,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 556,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 556
+            }
+          },
+          "namedScores": {
+            "correct_tool": 0,
+            "correct_args": 0
+          },
+          "namedScoresCount": {
+            "correct_tool": 1,
+            "correct_args": 1
+          },
+          "cost": 0
+        }
+      },
+      {
+        "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "id": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
         "provider": "GPT-4o Mini",
         "metrics": {
           "score": 3,
@@ -100,7 +142,7 @@
           "testErrorCount": 0,
           "assertPassCount": 8,
           "assertFailCount": 0,
-          "totalLatencyMs": 93,
+          "totalLatencyMs": 76,
           "tokenUsage": {
             "total": 399,
             "prompt": 0,
@@ -128,6 +170,36 @@
             "correct_args": 1
           },
           "cost": 0.00008189999999999998
+        }
+      },
+      {
+        "raw": "[\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]",
+        "id": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "provider": "End-to-end RAG+Tool Pipeline",
+        "metrics": {
+          "score": 0,
+          "testPassCount": 0,
+          "testFailCount": 0,
+          "testErrorCount": 3,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 0,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 3,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0
         }
       }
     ],
@@ -172,21 +244,21 @@
           ],
           "assertion": null
         },
-        "id": "cd4e9451-df58-41e7-9f0e-864df97afae4",
-        "latencyMs": 9,
+        "id": "f32d967e-1ec5-4b00-a14a-87ada6a19dbf",
+        "latencyMs": 8,
         "namedScores": {},
         "prompt": {
           "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
           "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
         "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 0,
+        "promptIdx": 1,
         "provider": {
-          "id": "ollama:llama2:latest",
-          "label": "Llama2"
+          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
+          "label": "Breeze 7B Instruct"
         },
         "response": {
-          "output": "歡迎您到我們數位證書服務的客服中！作為一名客服人員，我會尽力答凡您的問題。\n\n在這裡面，您可以提交問題或需要幫助，我們都能夠回應。如果您有任何問題或需要幫助，請隨時提交。\n\n來自您的第一個問題：作為用者，您想知道數位證書的發證流程是如何進行的。我們可以提供您有關這個問題的解答。\n\n為了確保您能夠適當地獲得資訊，我們會逐步介紹數位證書的發證流程。首先，您需要完成以下步驟：\n\n1. 請提供您的姓名和Email地址，以便我們能夠確保您的資料是安全的。\n2. 接著，您需要完成一個基本的評估，以確保您理解數位證書的功能和限制。\n3. 一旦您通過評估，我們將給您一個發證預認 code，您可以使用這個 code來申請數位證書。\n4. 當您申請成功後，您將獲得一個數位證書，可以用於進行在線交易和其他各種服務。\n\n我們希望這篇介紹能夠幫助您了解數位證書的發證流程，如果您有任何其他問題或需要幫助，請隨時提交。"
+          "output": "數位證書（Digital Certificate）是一種電子文件，用於驗證和保護網路上的身份識別。以下是我們台灣地區常見的數位證書發證流程：\n\n1. 申請人註冊：申請人需要在數位證書機構的網站上註冊一個帳戶，並提供個人或公司等相關資訊。\n2. 填寫資料：申請人需填寫完整的基本資料，包括姓名、出生日期、地址、電子郵件等，以及選擇所需的證書類型（如身份驗證、SSL憑證等）和有效期。\n3. 支付費用：根據不同的證書種類和效期，申請人需要支付相應的費用。\n4. 身分認證：在註冊後，申請人需進行身分認證，通常有以下幾種方式：\n   a. 電子郵件認證：數位證書機構會發送一封驗證信到申請人的註冊電郵地址，點擊信中的連結即可完成認證。\n   b. 電話認證：數位證書機構會撥打電話給申請人，並提供一組驗證碼供確認。\n   c. 實體證件郵寄：申請人需將本人的身份證明文件（如身分證、護照等）郵寄至數位證書機構進行人工審核。\n5. 下載安裝：當完成上述步驟後，申請人可以在數位證書機構網站上下載所需的憑證，並按照指示安裝到瀏覽器或伺服器中。\n6. 憑證啟用：憑證啟用通常需要在憑證有效期內進行一次，以確保憑證能正常使用。\n7. 憑證更新：憑證到期前，申請人需重新購買憑證並完成更新程序，以便繼續使用憑證。\n\n請注意，上述流程可能因不同數位證書機構而有所差異。"
         },
         "score": 1,
         "success": true,
@@ -222,121 +294,52 @@
       },
       {
         "cost": 0,
-        "error": "Aggregate score 0.00 < 0.7 threshold",
-        "gradingResult": {
-          "pass": false,
-          "score": 0,
-          "reason": "Aggregate score 0.00 < 0.7 threshold",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 309,
-            "prompt": 0,
-            "completion": 0,
-            "cached": 309
-          },
-          "componentResults": [
-            {
-              "pass": false,
-              "score": 0,
-              "reason": "Custom function returned false\noutput.includes('不相關') || output.includes('非')",
-              "assertion": {
-                "type": "javascript",
-                "value": "output.includes('不相關') || output.includes('非')",
-                "weight": 3
-              }
-            },
-            {
-              "pass": false,
-              "score": 0,
-              "reason": "Python code returned false\nfile://./scorers/score1.py",
-              "assertion": {
-                "type": "python",
-                "value": "file://./scorers/score1.py",
-                "weight": 2,
-                "config": {
-                  "keyword": "無法回答"
-                }
-              }
-            },
-            {
-              "assertion": {
-                "type": "llm-rubric",
-                "value": "不相關的內容，無法回應",
-                "weight": 5,
-                "provider": "openai:gpt-4o-mini"
-              },
-              "pass": false,
-              "score": 0,
-              "reason": "The output focuses on providing customer service information and asks for specific questions related to the service, which indicates relevance.",
-              "tokensUsed": {
-                "total": 309,
-                "prompt": 0,
-                "completion": 0,
-                "cached": 309,
-                "completionDetails": {
-                  "reasoning": 0,
-                  "acceptedPrediction": 0,
-                  "rejectedPrediction": 0
-                }
-              }
-            }
-          ],
-          "assertion": null
-        },
-        "id": "12f5f530-c3b4-4894-8e67-512ef9015ad2",
-        "latencyMs": 20,
+        "error": "Error: ENOENT: no such file or directory, open 'D:\\graduate\\scripts\\full_pipeline.py'\n\nError: ENOENT: no such file or directory, open 'D:\\graduate\\scripts\\full_pipeline.py'\n    at Object.readFileSync (node:fs:448:20)\n    at PythonProvider.executePythonScript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\providers\\pythonCompletion.js:75:64)\n    at PythonProvider.callApi (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\providers\\pythonCompletion.js:193:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async runEval (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:237:24)\n    at async processEvalStep (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:726:26)\n    at async C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:1086:13",
+        "gradingResult": null,
+        "id": "97114f8f-15ff-45c9-ab67-507c4d5540f2",
+        "latencyMs": 0,
         "namedScores": {},
         "prompt": {
-          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
           "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
         "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 0,
+        "promptIdx": 4,
         "provider": {
-          "id": "ollama:llama2:latest",
-          "label": "Llama2"
-        },
-        "response": {
-          "output": "Hello! As a customer service representative for a digital signature service, I'm here to help you with any questions or concerns you may have. Please feel free to ask me anything related to our service, including introductions and general information. However, I must inform you that I cannot provide answers to unrelated questions or content that is not relevant to our service. Is there something specific you would like to know or discuss?"
+          "id": "file://../scripts/full_pipeline.py:run",
+          "label": "End-to-end RAG+Tool Pipeline"
         },
         "score": 0,
         "success": false,
         "testCase": {
           "vars": {
-            "user_prompt": "芭樂是甚麼樣的水果"
+            "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
           },
           "assert": [
             {
-              "type": "javascript",
-              "value": "output.includes('不相關') || output.includes('非')",
+              "type": "icontains",
+              "value": "數位證書",
               "weight": 3
             },
             {
               "type": "python",
-              "value": "file://./scorers/score1.py",
+              "value": "file://./scorers/score1.py:score",
               "weight": 2,
               "config": {
-                "keyword": "無法回答"
+                "keyword": "發證"
               }
-            },
-            {
-              "type": "llm-rubric",
-              "value": "不相關的內容，無法回應",
-              "weight": 5,
-              "provider": "openai:gpt-4o-mini"
             }
           ],
-          "description": "不相關內容測試",
-          "threshold": 0.7,
+          "description": "數位證書發證流程",
           "options": {},
           "metadata": {}
         },
-        "testIdx": 1,
+        "testIdx": 0,
         "vars": {
-          "user_prompt": "芭樂是甚麼樣的水果"
+          "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
         },
         "metadata": {},
-        "failureReason": 1
+        "failureReason": 2
       },
       {
         "cost": 0,
@@ -378,21 +381,21 @@
           ],
           "assertion": null
         },
-        "id": "b8e86bec-c092-4843-a53a-6f9c08fadda3",
-        "latencyMs": 37,
+        "id": "3b7265e8-7023-4fb1-aeb7-27cbb29c5fbd",
+        "latencyMs": 23,
         "namedScores": {},
         "prompt": {
           "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
           "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
         "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 1,
+        "promptIdx": 0,
         "provider": {
-          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
-          "label": "Breeze 7B Instruct"
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
         },
         "response": {
-          "output": "數位證書（Digital Certificate）是一種電子文件，用於驗證和保護網路上的身份識別。以下是我們台灣地區常見的數位證書發證流程：\n\n1. 申請人註冊：申請人需要在數位證書機構的網站上註冊一個帳戶，並提供個人或公司等相關資訊。\n2. 填寫資料：申請人需填寫完整的基本資料，包括姓名、出生日期、地址、電子郵件等，以及選擇所需的證書類型（如身份驗證、SSL憑證等）和有效期。\n3. 支付費用：根據不同的證書種類和效期，申請人需要支付相應的費用。\n4. 身分認證：在註冊後，申請人需進行身分認證，通常有以下幾種方式：\n   a. 電子郵件認證：數位證書機構會發送一封驗證信到申請人的註冊電郵地址，點擊信中的連結即可完成認證。\n   b. 電話認證：數位證書機構會撥打電話給申請人，並提供一組驗證碼供確認。\n   c. 實體證件郵寄：申請人需將本人的身份證明文件（如身分證、護照等）郵寄至數位證書機構進行人工審核。\n5. 下載安裝：當完成上述步驟後，申請人可以在數位證書機構網站上下載所需的憑證，並按照指示安裝到瀏覽器或伺服器中。\n6. 憑證啟用：憑證啟用通常需要在憑證有效期內進行一次，以確保憑證能正常使用。\n7. 憑證更新：憑證到期前，申請人需重新購買憑證並完成更新程序，以便繼續使用憑證。\n\n請注意，上述流程可能因不同數位證書機構而有所差異。"
+          "output": "歡迎您到我們數位證書服務的客服中！作為一名客服人員，我會尽力答凡您的問題。\n\n在這裡面，您可以提交問題或需要幫助，我們都能夠回應。如果您有任何問題或需要幫助，請隨時提交。\n\n來自您的第一個問題：作為用者，您想知道數位證書的發證流程是如何進行的。我們可以提供您有關這個問題的解答。\n\n為了確保您能夠適當地獲得資訊，我們會逐步介紹數位證書的發證流程。首先，您需要完成以下步驟：\n\n1. 請提供您的姓名和Email地址，以便我們能夠確保您的資料是安全的。\n2. 接著，您需要完成一個基本的評估，以確保您理解數位證書的功能和限制。\n3. 一旦您通過評估，我們將給您一個發證預認 code，您可以使用這個 code來申請數位證書。\n4. 當您申請成功後，您將獲得一個數位證書，可以用於進行在線交易和其他各種服務。\n\n我們希望這篇介紹能夠幫助您了解數位證書的發證流程，如果您有任何其他問題或需要幫助，請隨時提交。"
         },
         "score": 1,
         "success": true,
@@ -466,15 +469,15 @@
           ],
           "assertion": null
         },
-        "id": "82386caf-1d6f-4e1b-963f-81b950b0b284",
-        "latencyMs": 48,
+        "id": "3ff1491e-4b58-4caa-ae20-9047858bfe63",
+        "latencyMs": 36,
         "namedScores": {},
         "prompt": {
           "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
           "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
         "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 2,
+        "promptIdx": 3,
         "provider": {
           "id": "openai:gpt-4o-mini",
           "label": "GPT-4o Mini"
@@ -519,6 +522,267 @@
         },
         "metadata": {},
         "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "數位證書",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py:score",
+                "weight": 2,
+                "config": {
+                  "keyword": "發證"
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "3ef719ae-460e-421c-9810-94cfa0b100fe",
+        "latencyMs": 48,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"用繁體中文介紹數位證書的發證流程是如何進行的。\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 2,
+        "provider": {
+          "id": "ollama:TwinkleAI/Llama-3.2-3B-F1-Resoning-Instruct:latest",
+          "label": "Llama-3.2-3B-F1-Resoning-Instruct"
+        },
+        "response": {
+          "output": "<think>\n好的，我需要處理使用者的查詢，他們想了解數位證書的發證流程，特別是用繁體中文來說明。我首先要確認是否符合規定，即問題相關性。根據指南，必須專注於數位證書服務相關的內容，所以這個問題應該可以回答。\n\n接下來，我需要回憶數位證書的常見流程步驟。通常包括身份驗證、申請、審核、頒發和維護等階段。我需要用繁體中文組織這些步驟，確保語句通順且符合台灣的用詞習慣，比如“電子憑證”而不是“數位證書”，雖然兩者大致相似，但需確認是否在台灣常見。\n\n另外，要注意流程中可能涉及不同的機構或平台，例如政府認證單位、第三方驗證機構等。需要提到這些可能的參與者，並說明整個過程的必要性和安全性，如加密技術的使用以保護資料。\n\n還要檢查是否有遺漏步驟，比如後續的維護或更新，或者不同類型證書（如電子簽章、認證）可能有不同的流程。確保回答涵蓋主要階段，並用簡潔明瞭的方式呈現。\n\n最後，確認是否符合所有指南要求，特別是關於不相關問題的處理，但這裡顯然屬於數位證書範疇，所以沒問題。整合以上資訊，用台灣常用的術語和結構來回答使用者的問題。\n</think>\n\n以下是數位憑證發證流程的繁體中文說明：\n\n1. ** 身份驗證階段 **\n - 提供有效身分證明文件（如雙證件）\n - 進行生物辨識驗證（指紋 / 臉部辨識）\n\n2. ** 申請提交程序 **\n - 填寫電子憑證申請表\n - 上傳公司登記資料與負責人身份證影本\n\n3. ** 審核階段 **\n - 驗證文件真偽（如經濟部商業司查驗）\n - 第三方認證機構審查（如台灣電子發票平台）\n\n4. ** 核發程序 **\n - 簽署同意使用條款\n - 進行數位簽章技術測試\n\n5. ** 實體核發 **\n - 申請單位收到正式公文\n - 下載綁定憑證設定檔案\n\n6. ** 後續維護 **\n - 每季更新憑證有效期限\n - 通知系統異動（如公司變更登記）\n\n▲ 注意事項：\n- 政府機關核發之電子簽章須通過數位部認證\n- 商業用憑證需符合《電子簽章法》規範\n- 個人憑證使用建議採用 TLS 1.3 加密傳輸\n\n此流程依據台灣現行法規與經濟部標準檢驗局指引，實際作業時程約需 14 - 21 個工作天。"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "數位證書",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py:score",
+              "weight": 2,
+              "config": {
+                "keyword": "發證"
+              }
+            }
+          ],
+          "description": "數位證書發證流程",
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "user_prompt": "用繁體中文介紹數位證書的發證流程是如何進行的。"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Aggregate score 1.00 ≥ 0.7 threshold",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 556,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 556
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "javascript",
+                "value": "output.includes('不相關') || output.includes('非')",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "無法回答"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "不相關的內容，無法回應",
+                "weight": 5,
+                "provider": "openai:gpt-4o-mini"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The output correctly states '此為不相關內容，無法回答' which aligns with the rubric's requirement.",
+              "tokensUsed": {
+                "total": 556,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 556,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "8eeab254-d5c3-49a3-a9fe-a4eaa9f1cf06",
+        "latencyMs": 3,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 2,
+        "provider": {
+          "id": "ollama:TwinkleAI/Llama-3.2-3B-F1-Resoning-Instruct:latest",
+          "label": "Llama-3.2-3B-F1-Resoning-Instruct"
+        },
+        "response": {
+          "output": "<think>\n好的，我現在需要處理使用者提供的對話歷史和新的查詢請求。首先，回顧之前的對話，系統客服人員被指派處理數位證書相關問題，但使用者的新問題是關於芭樂這個水果的介紹，這明顯超出了原定範疇。\n\n根據系統設定，如果問題與數位證書無關，就必須回答“此為不相關內容，無法回答”。因此，我需要確認該查詢是否屬於其他領域。使用者的問題是詢問芭樂的特性，這顯然不是數位證書的範疇，所以應按照規則回應。\n\n接下來，我需要確保回應符合所有指南，特別是關於不回答相關內容的要求。此外，要保持禮貌和專業，但嚴格遵守不討論其他話題的限制。因此，正確的做法是直接回覆使用者無法回答該問題，並說明原因。\n\n需要檢查是否有任何可能的例外情況，例如使用者的問題雖然看似簡單，但可能涉及數位證書相關知識。但在這個案例中，芭樂是一種水果，與數位證書無關，因此不符合條件。因此，必須堅持回答“此為不相關內容，無法回答”。\n</think>\n\n此為不相關內容，無法回答"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "芭樂是甚麼樣的水果"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "無法回答"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
+            }
+          ],
+          "description": "不相關內容測試",
+          "threshold": 0.7,
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "user_prompt": "芭樂是甚麼樣的水果"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "error": "Error: ENOENT: no such file or directory, open 'D:\\graduate\\scripts\\full_pipeline.py'\n\nError: ENOENT: no such file or directory, open 'D:\\graduate\\scripts\\full_pipeline.py'\n    at Object.readFileSync (node:fs:448:20)\n    at PythonProvider.executePythonScript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\providers\\pythonCompletion.js:75:64)\n    at PythonProvider.callApi (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\providers\\pythonCompletion.js:193:21)\n    at runEval (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:237:45)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async processEvalStep (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:726:26)\n    at async C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:1086:13",
+        "gradingResult": null,
+        "id": "6581528d-047c-4856-acb1-c0d276a7d35c",
+        "latencyMs": 0,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 4,
+        "provider": {
+          "id": "file://../scripts/full_pipeline.py:run",
+          "label": "End-to-end RAG+Tool Pipeline"
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "芭樂是甚麼樣的水果"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "無法回答"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
+            }
+          ],
+          "description": "不相關內容測試",
+          "threshold": 0.7,
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "user_prompt": "芭樂是甚麼樣的水果"
+        },
+        "metadata": {},
+        "failureReason": 2
       },
       {
         "cost": 0,
@@ -569,8 +833,8 @@
           ],
           "assertion": null
         },
-        "id": "2bff4e9a-4380-404a-b216-07f0db85a5d1",
-        "latencyMs": 28,
+        "id": "6a2241dd-9fc6-4baf-8c44-058b8a1fa48d",
+        "latencyMs": 4,
         "namedScores": {
           "correct_tool": 0,
           "correct_args": 0
@@ -621,6 +885,241 @@
       },
       {
         "cost": 0,
+        "error": "Aggregate score 0.00 < 0.7 threshold",
+        "gradingResult": {
+          "pass": false,
+          "score": 0,
+          "reason": "Aggregate score 0.00 < 0.7 threshold",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 309,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 309
+          },
+          "componentResults": [
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function returned false\noutput.includes('不相關') || output.includes('非')",
+              "assertion": {
+                "type": "javascript",
+                "value": "output.includes('不相關') || output.includes('非')",
+                "weight": 3
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Python code returned false\nfile://./scorers/score1.py",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "無法回答"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "不相關的內容，無法回應",
+                "weight": 5,
+                "provider": "openai:gpt-4o-mini"
+              },
+              "pass": false,
+              "score": 0,
+              "reason": "The output focuses on providing customer service information and asks for specific questions related to the service, which indicates relevance.",
+              "tokensUsed": {
+                "total": 309,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 309,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "d4468ae9-53c4-411e-ac29-8062ce8b8bf0",
+        "latencyMs": 32,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 0,
+        "provider": {
+          "id": "ollama:llama2:latest",
+          "label": "Llama2"
+        },
+        "response": {
+          "output": "Hello! As a customer service representative for a digital signature service, I'm here to help you with any questions or concerns you may have. Please feel free to ask me anything related to our service, including introductions and general information. However, I must inform you that I cannot provide answers to unrelated questions or content that is not relevant to our service. Is there something specific you would like to know or discuss?"
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "芭樂是甚麼樣的水果"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "無法回答"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
+            }
+          ],
+          "description": "不相關內容測試",
+          "threshold": 0.7,
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "user_prompt": "芭樂是甚麼樣的水果"
+        },
+        "metadata": {},
+        "failureReason": 1
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "Aggregate score 1.00 ≥ 0.7 threshold",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 239,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 239
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "javascript",
+                "value": "output.includes('不相關') || output.includes('非')",
+                "weight": 3
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "python",
+                "value": "file://./scorers/score1.py",
+                "weight": 2,
+                "config": {
+                  "keyword": "無法回答"
+                }
+              }
+            },
+            {
+              "assertion": {
+                "type": "llm-rubric",
+                "value": "不相關的內容，無法回應",
+                "weight": 5,
+                "provider": "openai:gpt-4o-mini"
+              },
+              "pass": true,
+              "score": 1,
+              "reason": "The output states that the question is not related to digital certificate services and cannot be answered.",
+              "tokensUsed": {
+                "total": 239,
+                "prompt": 0,
+                "completion": 0,
+                "cached": 239,
+                "completionDetails": {
+                  "reasoning": 0,
+                  "acceptedPrediction": 0,
+                  "rejectedPrediction": 0
+                }
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "da219b15-e7e4-4207-9eee-ff7bf7700818",
+        "latencyMs": 40,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 1,
+        "provider": {
+          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
+          "label": "Breeze 7B Instruct"
+        },
+        "response": {
+          "output": "此問題非數位證書服務相關內容，無法回答。"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "user_prompt": "芭樂是甚麼樣的水果"
+          },
+          "assert": [
+            {
+              "type": "javascript",
+              "value": "output.includes('不相關') || output.includes('非')",
+              "weight": 3
+            },
+            {
+              "type": "python",
+              "value": "file://./scorers/score1.py",
+              "weight": 2,
+              "config": {
+                "keyword": "無法回答"
+              }
+            },
+            {
+              "type": "llm-rubric",
+              "value": "不相關的內容，無法回應",
+              "weight": 5,
+              "provider": "openai:gpt-4o-mini"
+            }
+          ],
+          "description": "不相關內容測試",
+          "threshold": 0.7,
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "user_prompt": "芭樂是甚麼樣的水果"
+        },
+        "metadata": {},
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
         "error": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
         "gradingResult": {
           "pass": false,
@@ -668,8 +1167,8 @@
           ],
           "assertion": null
         },
-        "id": "4862d475-b337-4735-8b04-361b1367c1a3",
-        "latencyMs": 29,
+        "id": "4b2113ef-8b5f-4b4b-9462-1161e4af0e5f",
+        "latencyMs": 22,
         "namedScores": {
           "correct_tool": 0,
           "correct_args": 0
@@ -686,6 +1185,153 @@
         },
         "response": {
           "output": "此訊息非相關內容，無法回答"
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+          },
+          "assert": [
+            {
+              "type": "is-valid-openai-tools-call"
+            },
+            {
+              "type": "javascript",
+              "value": "output[0].function.name === \"get_certificate_date\"",
+              "metric": "correct_tool"
+            },
+            {
+              "type": "javascript",
+              "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "metric": "correct_args"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+        },
+        "metadata": {},
+        "failureReason": 1
+      },
+      {
+        "cost": 0,
+        "error": "Error: ENOENT: no such file or directory, open 'D:\\graduate\\scripts\\full_pipeline.py'\n\nError: ENOENT: no such file or directory, open 'D:\\graduate\\scripts\\full_pipeline.py'\n    at Object.readFileSync (node:fs:448:20)\n    at PythonProvider.executePythonScript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\providers\\pythonCompletion.js:75:64)\n    at PythonProvider.callApi (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\providers\\pythonCompletion.js:193:21)\n    at runEval (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:237:45)\n    at async processEvalStep (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:726:26)\n    at async C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\evaluator.js:1086:13",
+        "gradingResult": null,
+        "id": "a0ec909d-5994-47e5-998a-b596e34a74bb",
+        "latencyMs": 0,
+        "namedScores": {},
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"幫我查詢我的數位證書發證日期; id 為 1234567890\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 4,
+        "provider": {
+          "id": "file://../scripts/full_pipeline.py:run",
+          "label": "End-to-end RAG+Tool Pipeline"
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "vars": {
+            "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+          },
+          "assert": [
+            {
+              "type": "is-valid-openai-tools-call"
+            },
+            {
+              "type": "javascript",
+              "value": "output[0].function.name === \"get_certificate_date\"",
+              "metric": "correct_tool"
+            },
+            {
+              "type": "javascript",
+              "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "metric": "correct_args"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
+        },
+        "metadata": {},
+        "failureReason": 2
+      },
+      {
+        "cost": 0,
+        "error": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+        "gradingResult": {
+          "pass": false,
+          "score": 0,
+          "reason": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+          "namedScores": {
+            "correct_tool": 0,
+            "correct_args": 0
+          },
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "OpenAI did not return a valid-looking tools response: \"<think>\\n好的，我現在需要處理使用者的問題，他們想查詢自己的數位證書發證日期，ID是 1234567890。首先，我要確認這個請求是否屬於系統相關的範疇。根據提供的指引，客服人員應專注於數位證書服務，而其他不相關問題需要回覆「此為不相關內容，無法回答」。使用者明確提到了 ID 和發證日期，這兩個資訊是系統管理員需要處理的核心資料。\\n\\n接下來，我需要檢查是否有權限訪問使用者的具體資料。根據公司的政策，客服人員只能基於已知的系統內容進行回答，而無法直接存取或修改其他使用者資料。因此，即使使用者提供了 ID，也可能因為安全規範而無法獲取該資訊。\\n\\n然後，我要考慮是否有其他方式可以協助使用者，例如建議他們聯繫授權的系統管理員，或指導如何自行查詢發證日期。但根據問題描述，使用者的需求是直接尋求系統內部處理，所以應該先確認是否能提供幫助。\\n\\n另外，我需要確保回覆符合公司的隱私政策，不涉及未經授權的資料存取。因此，即使有能力獲取，也必須遵守規定，不能洩露使用者資訊。這樣才能保持專業和合規。\\n\\n總結來說，這個問題屬於系統範疇，但客服人員無法直接訪問具體資料，因此應回覆請求者尋求管理員協助，並指導正確的聯繫方式，同時保持禮貌且符合隱私保護原則。\\n</think>\\n\\n此為不相關內容，無法回答。\"",
+              "assertion": {
+                "type": "is-valid-openai-tools-call"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function threw error: Cannot read properties of undefined (reading 'name')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'name')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:27)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\noutput[0].function.name === \"get_certificate_date\"",
+              "assertion": {
+                "type": "javascript",
+                "value": "output[0].function.name === \"get_certificate_date\"",
+                "metric": "correct_tool"
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Custom function threw error: Cannot read properties of undefined (reading 'arguments')\nStack Trace: TypeError: Cannot read properties of undefined (reading 'arguments')\n    at eval (eval at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:49:36), <anonymous>:3:38)\n    at handleJavascript (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\javascript.js:50:43)\n    at runAssertion (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:277:30)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\dist\\src\\assertions\\index.js:327:30\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:151:38\n    at replenish (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:447:21)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:452:13\n    at Object.eachOfLimit (C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:478:36)\n    at C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\promptfoo\\node_modules\\async\\dist\\async.js:220:25\n    at new Promise (<anonymous>)\nJSON.parse(output[0].function.arguments).id === \"1234567890\"",
+              "assertion": {
+                "type": "javascript",
+                "value": "JSON.parse(output[0].function.arguments).id === \"1234567890\"",
+                "metric": "correct_args"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "7f49c47b-ba0e-4f72-808e-476cd021541c",
+        "latencyMs": 26,
+        "namedScores": {
+          "correct_tool": 0,
+          "correct_args": 0
+        },
+        "prompt": {
+          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"幫我查詢我的數位證書發證日期; id 為 1234567890\"\n  }\n]",
+          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
+        },
+        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
+        "promptIdx": 2,
+        "provider": {
+          "id": "ollama:TwinkleAI/Llama-3.2-3B-F1-Resoning-Instruct:latest",
+          "label": "Llama-3.2-3B-F1-Resoning-Instruct"
+        },
+        "response": {
+          "output": "<think>\n好的，我現在需要處理使用者的問題，他們想查詢自己的數位證書發證日期，ID是 1234567890。首先，我要確認這個請求是否屬於系統相關的範疇。根據提供的指引，客服人員應專注於數位證書服務，而其他不相關問題需要回覆「此為不相關內容，無法回答」。使用者明確提到了 ID 和發證日期，這兩個資訊是系統管理員需要處理的核心資料。\n\n接下來，我需要檢查是否有權限訪問使用者的具體資料。根據公司的政策，客服人員只能基於已知的系統內容進行回答，而無法直接存取或修改其他使用者資料。因此，即使使用者提供了 ID，也可能因為安全規範而無法獲取該資訊。\n\n然後，我要考慮是否有其他方式可以協助使用者，例如建議他們聯繫授權的系統管理員，或指導如何自行查詢發證日期。但根據問題描述，使用者的需求是直接尋求系統內部處理，所以應該先確認是否能提供幫助。\n\n另外，我需要確保回覆符合公司的隱私政策，不涉及未經授權的資料存取。因此，即使有能力獲取，也必須遵守規定，不能洩露使用者資訊。這樣才能保持專業和合規。\n\n總結來說，這個問題屬於系統範疇，但客服人員無法直接訪問具體資料，因此應回覆請求者尋求管理員協助，並指導正確的聯繫方式，同時保持禮貌且符合隱私保護原則。\n</think>\n\n此為不相關內容，無法回答。"
         },
         "score": 0,
         "success": false,
@@ -766,8 +1412,8 @@
           ],
           "assertion": null
         },
-        "id": "4c5e6024-be61-4b8a-85d5-5001a7c40248",
-        "latencyMs": 10,
+        "id": "1655753c-5f84-488e-8576-1326c4da21c1",
+        "latencyMs": 26,
         "namedScores": {
           "correct_tool": 1,
           "correct_args": 1
@@ -777,7 +1423,7 @@
           "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
         "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 2,
+        "promptIdx": 3,
         "provider": {
           "id": "openai:gpt-4o-mini",
           "label": "GPT-4o Mini"
@@ -827,123 +1473,6 @@
         "testIdx": 2,
         "vars": {
           "user_prompt": "幫我查詢我的數位證書發證日期; id 為 1234567890"
-        },
-        "metadata": {},
-        "failureReason": 0
-      },
-      {
-        "cost": 0,
-        "gradingResult": {
-          "pass": true,
-          "score": 1,
-          "reason": "Aggregate score 1.00 ≥ 0.7 threshold",
-          "namedScores": {},
-          "tokensUsed": {
-            "total": 239,
-            "prompt": 0,
-            "completion": 0,
-            "cached": 239
-          },
-          "componentResults": [
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "javascript",
-                "value": "output.includes('不相關') || output.includes('非')",
-                "weight": 3
-              }
-            },
-            {
-              "pass": true,
-              "score": 1,
-              "reason": "Assertion passed",
-              "assertion": {
-                "type": "python",
-                "value": "file://./scorers/score1.py",
-                "weight": 2,
-                "config": {
-                  "keyword": "無法回答"
-                }
-              }
-            },
-            {
-              "assertion": {
-                "type": "llm-rubric",
-                "value": "不相關的內容，無法回應",
-                "weight": 5,
-                "provider": "openai:gpt-4o-mini"
-              },
-              "pass": true,
-              "score": 1,
-              "reason": "The output states that the question is not related to digital certificate services and cannot be answered.",
-              "tokensUsed": {
-                "total": 239,
-                "prompt": 0,
-                "completion": 0,
-                "cached": 239,
-                "completionDetails": {
-                  "reasoning": 0,
-                  "acceptedPrediction": 0,
-                  "rejectedPrediction": 0
-                }
-              }
-            }
-          ],
-          "assertion": null
-        },
-        "id": "eb39272e-7f34-4eca-8051-733ac44261e4",
-        "latencyMs": 12,
-        "namedScores": {},
-        "prompt": {
-          "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
-          "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
-        },
-        "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 1,
-        "provider": {
-          "id": "ollama:ycchen/breeze-7b-instruct-v1_0:latest",
-          "label": "Breeze 7B Instruct"
-        },
-        "response": {
-          "output": "此問題非數位證書服務相關內容，無法回答。"
-        },
-        "score": 1,
-        "success": true,
-        "testCase": {
-          "vars": {
-            "user_prompt": "芭樂是甚麼樣的水果"
-          },
-          "assert": [
-            {
-              "type": "javascript",
-              "value": "output.includes('不相關') || output.includes('非')",
-              "weight": 3
-            },
-            {
-              "type": "python",
-              "value": "file://./scorers/score1.py",
-              "weight": 2,
-              "config": {
-                "keyword": "無法回答"
-              }
-            },
-            {
-              "type": "llm-rubric",
-              "value": "不相關的內容，無法回應",
-              "weight": 5,
-              "provider": "openai:gpt-4o-mini"
-            }
-          ],
-          "description": "不相關內容測試",
-          "threshold": 0.7,
-          "options": {},
-          "metadata": {}
-        },
-        "testIdx": 1,
-        "vars": {
-          "user_prompt": "芭樂是甚麼樣的水果"
         },
         "metadata": {},
         "failureReason": 0
@@ -1010,15 +1539,15 @@
           ],
           "assertion": null
         },
-        "id": "1f1a1b58-6f87-41fd-8984-1982909e46dc",
-        "latencyMs": 35,
+        "id": "56f827d7-fa36-43c1-ba8b-44bf7fa39209",
+        "latencyMs": 14,
         "namedScores": {},
         "prompt": {
           "raw": "[\n  {\n    \"role\": \"system\",\n    \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\n  },\n  {\n    \"role\": \"user\",\n    \"content\": \"芭樂是甚麼樣的水果\"\n  }\n]",
           "label": "prompts\\test.json: [\r\n    {\r\n      \"role\": \"system\",\r\n      \"content\": \"你是一個數位證書服務相關的客服人員，請回答和該服務相關的問題，包括介紹等等。請注意，其他不相關問題請一律回答 \\\"此為不相關內容，無法回答\\\"。\"\r\n    },\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{{user_prompt}}\"\r\n    }\r\n  ]"
         },
         "promptId": "968ad2db0d4b097f4c8cdb4548dc211a53eb53d50bb15b19b80c7fa211df8464",
-        "promptIdx": 2,
+        "promptIdx": 3,
         "provider": {
           "id": "openai:gpt-4o-mini",
           "label": "GPT-4o Mini"
@@ -1073,25 +1602,25 @@
       }
     ],
     "stats": {
-      "successes": 6,
-      "failures": 3,
-      "errors": 0,
+      "successes": 8,
+      "failures": 4,
+      "errors": 3,
       "tokenUsage": {
         "cached": 399,
         "completion": 0,
         "prompt": 0,
         "total": 399,
-        "numRequests": 9,
+        "numRequests": 15,
         "completionDetails": {
           "reasoning": 0,
           "acceptedPrediction": 0,
           "rejectedPrediction": 0
         },
         "assertions": {
-          "total": 778,
+          "total": 1334,
           "prompt": 0,
           "completion": 0,
-          "cached": 778
+          "cached": 1334
         }
       }
     }
@@ -1104,7 +1633,9 @@
     "providers": [
       "file://./providers/llama.yaml",
       "file://./providers/breeze.yaml",
-      "file://./providers/gpt-4o-mini.yaml"
+      "file://./providers/Llama-3.2-3B-F1.yaml",
+      "file://./providers/gpt-4o-mini.yaml",
+      "file://./providers/full_pipeline.yaml"
     ],
     "tests": [
       "file://./tests/test1.py:generate_tests",
