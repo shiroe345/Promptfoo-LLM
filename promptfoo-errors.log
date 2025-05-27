@@ -594,3 +594,59 @@ Stack Trace: Error: FileNotFoundError: [Errno 2] No such file or directory: 'D:\
     File "<frozen importlib._bootstrap_external>", line 1016, in get_code
     File "<frozen importlib._bootstrap_external>", line 1073, in get_data
 2025-05-21T07:45:03.445Z [ERROR] [pythonUtils.js:153]: Error removing C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503274-f30a062cf1f3c.json: Error: ENOENT: no such file or directory, unlink 'C:\Users\USER\AppData\Local\Temp\promptfoo-python-output-json-1747813503274-f30a062cf1f3c.json'
+2025-05-27T02:59:19.202Z [ERROR]: Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+2025-05-27T02:59:19.215Z [ERROR]: return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+2025-05-27T02:59:19.216Z [ERROR]: File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'user_prompt'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+  File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+2025-05-27T02:59:19.218Z [ERROR]: return method_to_call(*args)
+  File "D:\graduate\Promptfoo-LLM\tests\testcases.py", line 9, in generate_tests
+    "user_prompt": row["user_prompt"]
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py", line 1121, in __getitem__
+2025-05-27T02:59:19.239Z [ERROR]: return self._get_value(key)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py", line 1237, in _get_value
+2025-05-27T02:59:19.239Z [ERROR]: loc = self.index.get_loc(label)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'user_prompt'
+2025-05-27T02:59:19.306Z [ERROR]: Error running Python script: KeyError: 'user_prompt'
+Stack Trace: Error: KeyError: 'user_prompt'
+    at PythonShell.parseError (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:303:21)
+    at terminateIfNeeded (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:193:32)
+    at ChildProcess.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\node_modules\python-shell\index.js:185:13)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+      return self._engine.get_loc(casted_key)
+    File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+    File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+    File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+    File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  KeyError: 'user_prompt'
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+    File "C:\Users\USER\AppData\Roaming\npm\node_modules\promptfoo\dist\src\python\wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+    File "D:\graduate\Promptfoo-LLM\tests\testcases.py", line 9, in generate_tests
+      "user_prompt": row["user_prompt"]
+    File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py", line 1121, in __getitem__
+      return self._get_value(key)
+    File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py", line 1237, in _get_value
+      loc = self.index.get_loc(label)
+    File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+      raise KeyError(key) from err

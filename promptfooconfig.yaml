@@ -17,16 +17,22 @@ description: "模型繁體中文回應測試"
 #   threshold: 0.3 
 
 prompts:
-  - file://./prompts/test.json
+  # - file://./prompts/test.json
+  - file://./prompts/prompt_template.json
 
 providers:
-  - file://./providers/llama.yaml
+  # - file://./providers/llama2.yaml
   - file://./providers/breeze.yaml
   - file://./providers/Llama-3.2-3B-F1.yaml
-  - file://./providers/gpt-4o-mini.yaml
-  - file://./providers/full_pipeline.yaml
+  # - file://./providers/gpt-4o-mini.yaml
+  # - file://./providers/full_pipeline.yaml
+  - file://./providers/llama3_1.yaml
+  - file://./providers/breeze2.yaml
+  - file://./providers/gemma3.yaml
+
   
 
 tests: 
-  - file://./tests/test1.py:generate_tests
-  - file://./tests/test2.py:generate_tests
+  # - file://./tests/test1.py:generate_tests
+  # - file://./tests/test2.py:generate_tests
+  - file://./tests/testcases.py:generate_tests
